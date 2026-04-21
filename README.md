@@ -1,85 +1,57 @@
-# 🧠 Clinical AI Analysis – Autoimmune Diseases (RA vs Behçet)
+## 🧪 Project Summary
 
-## 🎯 Overview
-This project is based on a clinical research study comparing:
+This project analyzes two inflammatory diseases:
 - Rheumatoid Arthritis (RA)
 - Behçet’s Disease (BD)
 
-It focuses on how clinical reasoning and biological data support medical decision-making.
+The goal is to understand how clinical reasoning and biological data support treatment decisions.
 
 ---
 
-## 🏥 Key Work
-- Analysis of patient profiles before and after biotherapy  
-- Interpretation of biomarkers (CRP, ESR, RF, anti-CCP)  
-- Study of immunopathological mechanisms  
-- Comparison of autoimmune (RA) vs autoinflammatory (BD) diseases  
-- Identification of diagnostic challenges  
+## 🧠 Key Clinical Insights
+
+- RA is an autoimmune disease driven by adaptive immunity with specific biomarkers (RF, anti-CCP) :contentReference[oaicite:0]{index=0}  
+- Behçet’s disease is mainly autoinflammatory, with no specific biomarkers and strong involvement of innate immunity :contentReference[oaicite:1]{index=1}  
+
+👉 This makes diagnosis and treatment more complex, especially for BD.
 
 ---
 
-## ⚠️ Clinical Complexity
-- RA → specific biomarkers (RF, anti-CCP)  
-- Behçet → no specific biomarker  
-- Diagnosis relies heavily on clinical context  
+## 💊 Therapeutic Analysis
 
-👉 High risk of misclassification without proper reasoning  
+The project evaluates response to biotherapy:
+
+- Significant association between treatment and clinical improvement  
+- Treatment response depends on:
+  - baseline disease activity  
+  - immune profile  
+  - patient characteristics  
+
+👉 Personalized treatment is essential.
 
 ---
 
-## 🧠 AI Evaluation Perspective
-This project highlights common AI limitations:
-- Over-reliance on non-specific biomarkers (CRP, ESR)  
+## ⚠️ Clinical Challenge
+
+- Inflammation markers (CRP, ESR) are non-specific  
+- Different diseases can present similar biological profiles  
+- Behçet diagnosis relies mainly on clinical criteria  
+
+👉 Risk of misinterpretation without clinical reasoning.
+
+---
+
+## 🧠 AI Perspective
+
+This project highlights key risks for AI systems:
+
+- Over-reliance on biomarkers  
 - Confusion between inflammatory diseases  
-- Lack of patient-level reasoning  
+- Lack of contextual reasoning  
 
----
-## 🧠 Advanced Clinical Insight
+👉 Clinical expertise is required to validate AI outputs.
 
-Autoimmune and autoinflammatory diseases can present overlapping inflammatory profiles.
-
-Example:
-- Both RA and Behçet can show elevated CRP/ESR
-- Only RA has disease-specific autoantibodies (RF, anti-CCP)
-- Behçet diagnosis relies heavily on clinical criteria
-
-👉 This makes simple biomarker-based reasoning insufficient and potentially misleading.
-
-Clinical decision-making requires:
-- Integration of symptoms
-- Understanding of disease mechanisms
-- Contextual interpretation of biological data
-
-## 💡 Example (AI evaluation)
-
-**Patient:**
-- Elevated CRP and ESR  
-- Joint pain  
-- Recurrent oral ulcers  
-
-**AI output:**  
-“Rheumatoid Arthritis”
-
-**Analysis:**  
-- ❌ Incomplete reasoning  
-- CRP/ESR = non-specific inflammation  
-- Oral ulcers are more characteristic of Behçet  
-- No RA-specific biomarkers mentioned  
-
-**Correct reasoning:**  
-- Consider differential diagnosis  
-- Evaluate clinical signs (ulcers, systemic involvement)  
-- Check disease-specific markers (RF, anti-CCP)  
-
-👉 Conclusion: AI lacks clinical context integration
 ---
 
 ## 📄 Full Research
-👉 [Download the full project](./PFE_Autoimmune_Clinical_Analysis.pdf)
-
----
-
-## 🚀 Applications
-- AI model evaluation in healthcare  
-- Medical data annotation  
-- Clinical validation of AI outputs  
+👉 [Download full project](./PFE_Autoimmune_Clinical_Analysis.pdf)
