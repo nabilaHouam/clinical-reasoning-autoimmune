@@ -1,3 +1,22 @@
+# Comparative Analysis of Rheumatoid Arthritis and Behçet's Disease
+
+[![DOI](https://img.shields.io/badge/DOI-pending-blue)]()
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+**Lire l'article complet** → [article_scientifique.md](./article_scientifique.md)
+
+---
+
+## Summary
+
+This clinical study compares **rheumatoid arthritis (RA)** and **Behçet's disease (BD)** with a focus on:
+- Immunopathology
+- Biomarkers (RF, anti-CCP, CRP, ESR)
+- Response to biotherapy (anti-TNF, anti-IL6, anti-CD20)
+
+The goal is to understand how clinical reasoning and biological data support treatment decisions and to highlight implications for AI-based clinical decision support.
+
+---
 ## 🧪 Project Summary
 
 This project analyzes two inflammatory diseases:
